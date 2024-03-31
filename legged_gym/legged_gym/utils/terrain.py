@@ -165,8 +165,6 @@ class Terrain:
         terrain_utils.random_uniform_terrain(terrain, min_height=-height, max_height=height, step=0.005,
                                              downsampled_scale=self.cfg.downsampled_scale)
 
-    def testfuc(self):
-        print('I feel cold')
     def make_terrain(self, choice, difficulty):
         terrain = terrain_utils.SubTerrain("terrain",
                                            width=self.length_per_env_pixels,
